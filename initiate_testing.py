@@ -70,13 +70,3 @@ def test_cycle(username: str, password: str, url: str, questions: list, thread_i
 
     browser.close_browser()
     result_queue.put((thread_id, answers_to_text))
-
-username = "Doykov"
-password = "GraphTalk2803!"
-url = "https://assure-answers.sandbox-3010.hub-52.sandbox.assure.dxc.com/"
-path = "C:\\Users\\ddoykov\\Documents"
-file_name = "Training Question Tracker"
-test_results_column = "Test Results"
-number_tabs = '5'
-
-start_testing(username, password, url, path, file_name, test_results_column, number_tabs)
